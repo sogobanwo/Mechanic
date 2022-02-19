@@ -1,0 +1,124 @@
+:root{
+  --primary-color: #FB8C43;
+  --secondary-color: #480E0E;
+  --tetiary-color: #E5E5E5;
+  --background-color: #FFF1E8;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: var(--background-color);
+  font-family: metrophobic;
+  font-size: 10px;
+  position: relative;
+}
+.now{
+  color: var(--primary-color);
+}
+.navbar{
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  margin: 0 11.8em;
+  margin-top: 2.912rem;
+}
+.sign-up{
+  display: flex;
+  justify-content: right;
+}
+.sign-up ul{
+  display: flex;
+  flex-direction: row;
+}
+.sign-up ul li{
+  padding: 1rem;
+}
+.logo{
+  font-size: 1.7rem;
+  color: var(--secondary-color);
+}
+span{
+  color: var(--primary-color);
+}
+.navigation ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: var(--secondary-color);
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+}
+.navigation ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+.box{
+  background: var(--primary-color);
+  padding: .5rem 1rem;
+  color: white;
+  border-radius: 30px;
+}
+.main-section{
+  display: grid;
+  grid-template-columns: 4fr 5fr 3fr;
+  margin:  0 11.8em;
+}
+.hammer{
+  position: absolute;
+  left: 73px;
+  top: 140px;
+}
+.left-main h1{
+  font-size: 4.5rem;
+  color: var(--secondary-color);
+}
+.left-main{
+  margin-top: 100px;
+}
+.left-main p{
+  font-size: .9rem;
+  margin-top: 1.5rem;
+  color: var(--secondary-color);
+}
+#get{
+  margin-top: 60px;
+}
+.box-2{
+  background: var(--primary-color);
+  padding: 1rem 1rem;
+  color: white;
+  border-radius: 30px;
+}
+.box-3{
+  background: #ffffff;
+  padding: .5rem 0;
+  color: var(--secondary-color);
+  border-radius: 30px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: 10fr 15fr;
+  align-items: center;
+  justify-content: center;
+}
+.right-main{
+  margin-top: 175px;
+}
+.bottom-page{
+  margin-left: 35px;
+}
+.settings{
+  display: block;
+  float: right;
+  position: fixed;
+  top: 125px;
+  right: 0;
+}
